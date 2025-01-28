@@ -33,7 +33,7 @@ export default function Calendar() {
   };
 
   return (
-    <div className="items-center justify-items-center p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
+    <div className="items-center justify-items-center w-[412] m-auto pt-20 pb-20 gap-16 font-[family-name:var(--font-geist-sans)]">
       <h1 className="text-4xl font-semibold">Calendar</h1>
       <div>
         <span className="flex gap-5 m-6 justify-center">
