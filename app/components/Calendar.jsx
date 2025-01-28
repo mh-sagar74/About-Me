@@ -40,7 +40,7 @@ export default function Calendar() {
           <button onClick={handlePreBtn} className="border pl-3 pr-3">
             &lt;
           </button>
-          <h1 className="w-[300px] text-center text-xl">
+          <h1 className="w-[250] text-center text-xl">
             {currDate.toLocaleString("default", { month: "long" })}{" "}
             {currDate.getFullYear()}
           </h1>
